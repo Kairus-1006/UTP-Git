@@ -71,6 +71,7 @@ public static void main(String[] args) {
     System.out.println("Ingrese nota 5: ");
     int nota5 = lector.nextInt();
 
+    lector.close();
     //2. identificar la peor nota
     //3. Calcular el promedio ajustado, quitando la peor nota identificada
     double promedioAjustado = calcularPromedioAjustado(nota1,nota2, nota3, nota4, nota5);
