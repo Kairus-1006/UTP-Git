@@ -23,7 +23,7 @@ public static String leerFecha(){
     Scanner lector = new Scanner(System.in);
     String fecha;
     fecha = lector.nextLine();
-    lector.close();
+    
     return fecha;
     
 }
