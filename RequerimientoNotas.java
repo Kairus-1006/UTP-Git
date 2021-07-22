@@ -3,10 +3,6 @@ package co.edu.utp.misiontic2022.c2;
 
 import java.util.Scanner;
 
-
-
-
-
 public class RequerimientoNotas {
 
     //Logica
@@ -51,8 +47,6 @@ public class RequerimientoNotas {
     }
 
 public static void main(String[] args) {
-    
-
     
     //interaccion --> recoleccion
     //1. obtener Info del estudiante: codigo y las 5 notas en escala de 0 a 100
